@@ -1,0 +1,66 @@
+/* Same background as register */
+body {
+    margin: 100;
+    padding: 100;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+
+    background: url('/images/background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+}
+
+/* Success container — same as register form box */
+.success-box {
+    width: 300px;                                      /* SAME WIDTH */
+    margin: 40px 20px auto;                                 /* SAME MARGIN */
+    background: rgba(255, 255, 255, 0.92);             /* SAME BACKGROUND */
+    padding: 35px;                                     /* SAME PADDING */
+    border-radius: 12px;                               /* SAME ROUNDNESS */
+    box-shadow: 0 6px 18px rgba(0,0,0,0.3);            /* SAME SHADOW */
+    display: flex;                                     /* SAME FLEX */
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+}
+
+/* Title — same style as register page heading */
+.success-box h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 15px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+/* Button — same style as submit button of register page */
+.btn {
+    width: 100%;                                       /* SAME WIDTH AS INPUTS */
+    padding: 14px 0;                                   /* SAME HEIGHT */
+    background-color: #FFA500;                         /* Light Orange */
+    color: #400040;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+/* Hover effect */
+.btn:hover {
+    background-color: #FF8C00;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+
+/* Footer — same as register */
+.footer {
+    margin-top: 25px;
+    font-size: 14px;
+    color: #ffffff;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 12px 0;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
